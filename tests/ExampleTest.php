@@ -14,6 +14,6 @@ class ExampleTest extends TestCase
     public function testBasicExample()
     {
       //  $this->visit('/')
-             ->see('Azure Pipelines and PHP');
+      //       ->see('Azure Pipelines and PHP');
     }
 }
