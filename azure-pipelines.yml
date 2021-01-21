@@ -21,8 +21,7 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
-- script: sudo chmod 0775 vendor/bin/phpunit
-  displayName: 'Give execute permissions to phpunit'
+
 - script: ./phpunit
   displayName: 'Run tests with phpunit'
 - task: ArchiveFiles@2
